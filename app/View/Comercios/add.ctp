@@ -18,6 +18,8 @@
 		echo $this->Form->input('telefones');
 		echo $this->Form->input('pagamentos');
 		echo $this->Form->input('site');
+		echo $this->Form->input('logo');
+		echo $this->Form->input('banner');
 	?>
 	</fieldset>
 <?php echo $this->Form->end(__('Submit')); ?>

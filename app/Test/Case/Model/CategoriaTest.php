@@ -14,7 +14,8 @@ class CategoriaTest extends CakeTestCase {
  */
 	public $fixtures = array(
 		'app.categoria',
-		'app.comercio'
+		'app.comercio',
+		'app.user'
 	);
 
 /**

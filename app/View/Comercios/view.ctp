@@ -81,6 +81,16 @@
 			<?php echo h($comercio['Comercio']['site']); ?>
 			&nbsp;
 		</dd>
+		<dt><?php echo __('Logo'); ?></dt>
+		<dd>
+			<?php echo h($comercio['Comercio']['logo']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Banner'); ?></dt>
+		<dd>
+			<?php echo h($comercio['Comercio']['banner']); ?>
+			&nbsp;
+		</dd>
 		<dt><?php echo __('Created'); ?></dt>
 		<dd>
 			<?php echo h($comercio['Comercio']['created']); ?>

@@ -18,6 +18,8 @@
 			<th><?php echo $this->Paginator->sort('telefones'); ?></th>
 			<th><?php echo $this->Paginator->sort('pagamentos'); ?></th>
 			<th><?php echo $this->Paginator->sort('site'); ?></th>
+			<th><?php echo $this->Paginator->sort('logo'); ?></th>
+			<th><?php echo $this->Paginator->sort('banner'); ?></th>
 			<th><?php echo $this->Paginator->sort('created'); ?></th>
 			<th><?php echo $this->Paginator->sort('modified'); ?></th>
 			<th class="actions"><?php echo __('Actions'); ?></th>
@@ -44,6 +46,8 @@
 		<td><?php echo h($comercio['Comercio']['telefones']); ?>&nbsp;</td>
 		<td><?php echo h($comercio['Comercio']['pagamentos']); ?>&nbsp;</td>
 		<td><?php echo h($comercio['Comercio']['site']); ?>&nbsp;</td>
+		<td><?php echo h($comercio['Comercio']['logo']); ?>&nbsp;</td>
+		<td><?php echo h($comercio['Comercio']['banner']); ?>&nbsp;</td>
 		<td><?php echo h($comercio['Comercio']['created']); ?>&nbsp;</td>
 		<td><?php echo h($comercio['Comercio']['modified']); ?>&nbsp;</td>
 		<td class="actions">

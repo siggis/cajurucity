@@ -51,8 +51,8 @@ class UserFixture extends CakeTestFixture {
 			'email_verified' => 1,
 			'active' => 1,
 			'ip_address' => 'Lorem ipsum dolor sit amet',
-			'created' => '2014-03-02 00:06:27',
-			'modified' => '2014-03-02 00:06:27'
+			'created' => '2014-03-03 17:32:12',
+			'modified' => '2014-03-03 17:32:12'
 		),
 	);
 

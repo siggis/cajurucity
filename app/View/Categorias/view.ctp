@@ -65,6 +65,8 @@
 		<th><?php echo __('Telefones'); ?></th>
 		<th><?php echo __('Pagamentos'); ?></th>
 		<th><?php echo __('Site'); ?></th>
+		<th><?php echo __('Logo'); ?></th>
+		<th><?php echo __('Banner'); ?></th>
 		<th><?php echo __('Created'); ?></th>
 		<th><?php echo __('Modified'); ?></th>
 		<th class="actions"><?php echo __('Actions'); ?></th>
@@ -87,6 +89,8 @@
 			<td><?php echo $comercio['telefones']; ?></td>
 			<td><?php echo $comercio['pagamentos']; ?></td>
 			<td><?php echo $comercio['site']; ?></td>
+			<td><?php echo $comercio['logo']; ?></td>
+			<td><?php echo $comercio['banner']; ?></td>
 			<td><?php echo $comercio['created']; ?></td>
 			<td><?php echo $comercio['modified']; ?></td>
 			<td class="actions">

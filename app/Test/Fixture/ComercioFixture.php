@@ -27,6 +27,8 @@ class ComercioFixture extends CakeTestFixture {
 		'telefones' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 100, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'pagamentos' => array('type' => 'integer', 'null' => false, 'default' => '0', 'length' => 1),
 		'site' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 50, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'logo' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 50, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
+		'banner' => array('type' => 'string', 'null' => true, 'default' => null, 'length' => 50, 'collate' => 'utf8_general_ci', 'charset' => 'utf8'),
 		'created' => array('type' => 'datetime', 'null' => true, 'default' => null),
 		'modified' => array('type' => 'datetime', 'null' => true, 'default' => null),
 		'indexes' => array(
@@ -59,8 +61,10 @@ class ComercioFixture extends CakeTestFixture {
 			'telefones' => 'Lorem ipsum dolor sit amet',
 			'pagamentos' => 1,
 			'site' => 'Lorem ipsum dolor sit amet',
-			'created' => '2014-03-02 00:04:32',
-			'modified' => '2014-03-02 00:04:32'
+			'logo' => 'Lorem ipsum dolor sit amet',
+			'banner' => 'Lorem ipsum dolor sit amet',
+			'created' => '2014-03-03 17:29:35',
+			'modified' => '2014-03-03 17:29:35'
 		),
 	);
 

@@ -35,8 +35,8 @@ class CategoriaFixture extends CakeTestFixture {
 			'categoria' => 'Lorem ipsum dolor sit amet',
 			'alias_name' => 'Lorem ipsum dolor sit amet',
 			'allowRegistration' => 1,
-			'created' => '2014-03-02 00:04:06',
-			'modified' => '2014-03-02 00:04:06'
+			'created' => '2014-03-03 17:29:00',
+			'modified' => '2014-03-03 17:29:00'
 		),
 	);
 
